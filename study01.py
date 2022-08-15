@@ -1,16 +1,12 @@
-a = input('숫자입력:')
+a = input('20미만의 숫자를 입력해봐:')
 b = 10
 print('입력한 숫자는: ' + a)
 a = int(a)
 if a>5:
-	print('크다')
+	print('5보다 크다')
 else:
-	print('작다')	
-
-for i in range(10):
-	if a % i ==0:
-		print(i)
-print(a+b)		
+	print('5 이하이다')	
+print(a+b*2)		
 		
 		
 # 1 로컬에 github_study0815 폴더생성
