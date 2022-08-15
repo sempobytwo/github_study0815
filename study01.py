@@ -1,4 +1,5 @@
 a = input('숫자입력:')
+b = 10
 print('입력한 숫자는: ' + a)
 a = int(a)
 if a>5:
@@ -9,6 +10,8 @@ else:
 for i in range(10):
 	if a % i ==0:
 		print(i)
+print(a+b)		
+		
 		
 # 1 로컬에 github_study0815 폴더생성
 # 2 github_study0815  폴더에 study01.py라는 파일 생성
